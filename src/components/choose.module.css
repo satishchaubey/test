@@ -1,0 +1,25 @@
+
+
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url('/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+.choose_container{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 46%;
+
+    font-family: 'PlayfairDisplay-Regular';
+}
+
+.image_choose{
+    object-fit: contain;
+}
