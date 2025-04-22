@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Welcome = () => {
+const Welcome = ({title,any}) => {
   return (
     <>
-    <div className='second_border'></div>
-      <div className='why_us'>
+    <div className={`${any} second_border`}></div>
+      <div className={`${title} why_us`}>
         why 
       </div>
     </>

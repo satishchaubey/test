@@ -1,25 +1,53 @@
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 @font-face {
-    font-family: 'PlayfairDisplay-Regular';
-    src: url('/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-
-
-.choose_container{
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    width: 46%;
-
-    font-family: 'PlayfairDisplay-Regular';
+  font-family: 'PlayfairDisplay';
+  src: url('/fonts/Cookie-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.image_choose{
-    object-fit: contain;
+
+
+.choose_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 46%;
+  font-family: 'PlayfairDisplay-Regular';
+}
+.choose_container_two {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  width: 46%;
+  font-family: 'PlayfairDisplay-Regular';
+}
+.classesfor_h2{
+  margin-bottom: 0px !important;
+}
+.together {
+  font-family: 'PlayfairDisplay';
+  color: rgb(162, 158, 158);
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+
+.image_choose {
+  object-fit: contain;
+}
+
+.why_cls {
+  font-family: 'PlayfairDisplay';
+  font-weight: 500;
+  font-size: 2.5rem;
 }
